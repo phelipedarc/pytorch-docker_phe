@@ -1,7 +1,5 @@
 #!/bin/sh
-#PHELIPE CHANGES
-#07/10/2024
-# pytorch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 pytorch-cuda=12.4 -c pytorch -c nvidia
+
 export BASE_IMAGE=nvidia/cuda:12.4.0-cudnn9-devel-ubuntu22.04
 
 export PYTHON_VERSION=3.9.12
